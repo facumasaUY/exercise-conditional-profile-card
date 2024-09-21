@@ -38,7 +38,7 @@ function render(variables = {}) {
   }</h1>
           <h2>${variables.role == null ? "Web Developer" : variables.role}</h2>
           <h3>${variables.city == null ? "Miami" : variables.city}, ${
-    variables.lastName == null ? "Smith" : variables.lastName
+    variables.country == null ? "USA" : variables.country
   }</h3>
           <ul class="position-right">
             <li><a href="https://twitter.com/4geeksacademy"><i class="fab fa-twitter"></i></a></li>
